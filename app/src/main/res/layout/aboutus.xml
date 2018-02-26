@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Developed by the Team Decoders."
+        android:layout_weight="0.15"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app helps a user to scan or upload handwritten or printed medical presciptions and documents and generate meta data from them to form a medical database.\nIt stores in tabular format."
+        android:layout_weight="0.56"/>
+</LinearLayout>

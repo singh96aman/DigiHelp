@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/medimage"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo"
+        android:layout_weight="0.3"/>
+
+    <TextView
+        android:id="@+id/medname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4c4c4c"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Empty"
+        android:layout_weight="0.7"
+        />
+
+</LinearLayout>
